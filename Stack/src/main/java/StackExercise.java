@@ -7,13 +7,13 @@ import java.util.Deque;
  * same) where you could remove cards from either the top or bottom. You can use ArrayDeque
  * to perform stack operations. You can read about ArrayDeque in the official Javadocs here:
  * https://do
-        return null;
-    }
+  */
+    public class StackExcersice {
 
-    /**
-     * @param stack A Deque of Strings.
+     /** @param stack A Deque of Strings.
      * @return the number of elements in the deque.
      */
+    
     public int getSize(Deque<String> stack){
         return stack.size();
     }
@@ -24,6 +24,7 @@ import java.util.Deque;
      * @param item a String to be added to the deque.
      */
     public void addToTopOfStack(Deque<String> stack, String item){
+        stack.add(item);
     }
 
     /**
@@ -33,7 +34,7 @@ import java.util.Deque;
      * @return the value popped from the top of the deque.
      */
     public String removeFromTopOfStack(Deque<String> stack){
-        return "";
+        return stack.remove();
     }
     /**
      * Return the value at the top of a deque without removing the value.
@@ -41,6 +42,6 @@ import java.util.Deque;
      * @return the value peeked from the top of the deque.
      */
     public String getTopOfStackWithoutRemoving(Deque<String> stack){
-        return "";
+        return stack.peek();
     }
 }
