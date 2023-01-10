@@ -1,4 +1,4 @@
 CREATE TABLE Song(
-    Title varchar(100);
-    Artist varchar(100);
+    Title varchar(100),
+    Artist varchar(100)
 );

@@ -50,7 +50,7 @@ import java.sql.Statement;
  *
  */
 public class CreateATable {
-    Song song = new Song();
+    
 
     /**
      * Assignment: Create a new table in the problem1.sql file, called "song" with 2 columns "title" and "artist".
