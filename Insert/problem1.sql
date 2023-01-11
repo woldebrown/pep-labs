@@ -1,7 +1,6 @@
-Insert Into Song (
-    String title,
-    String artist
-) VALUES (
-    String title,
-    String 
-)
+INSERT INTO song
+(title, artist)
+VALUES 
+(
+ 'title','artist'
+);
