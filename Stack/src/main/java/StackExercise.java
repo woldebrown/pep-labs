@@ -1,3 +1,4 @@
+import java.util.ArrayDeque;
 import java.util.Deque;
 /**
  * Stacks are LIFO - last in, first out, like a stack of plates or books, or the puzzle game "Towers of Hanoi".
@@ -13,6 +14,7 @@ import java.util.Deque;
      /** @param stack A Deque of Strings.
      * @return the number of elements in the deque.
      */
+        Deque<String> stack = new ArrayDeque<>();
     
     public int getSize(Deque<String> stack){
         return stack.size();
