@@ -29,7 +29,8 @@ public class GameService {
     public boolean checkGuess(double guessNumber) {
         if(guessNumber == secretNumber) {
             return true;
+        } else {
+            return false;
         }
-        return false;
     }
 }
