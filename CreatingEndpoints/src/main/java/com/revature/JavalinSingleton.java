@@ -11,12 +11,14 @@ public class JavalinSingleton {
      * 
      * Note: Please refer to the "CreatingEndpoints.MD" file for more assistance if needed.
      */
+    ```java
     public static Javalin getInstance(){
         Javalin app = Javalin.create();
         
-        //write endpoint here
+        app.start(9000);
 
         return app;
     }
+    ```
     
 }
