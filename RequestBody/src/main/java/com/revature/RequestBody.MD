@@ -86,8 +86,7 @@ app.post("/user", ctx -> {
     user.setLastname("Jones");
     
     //utilize jackson convert back the user object to a json string
-    String jsonStringToBeReturned = om.writeValueAsString(user);
-
+    String jsonStringToBeReturned = om.writeValueAsString(user.class);
     //return the json string in the response body
     ctx.result(jsonStringToBeReturned);
 ```
