@@ -33,8 +33,8 @@
     checkoutLocation: pep-gitpod-workspace
     upstreamRemoteURI: https://github.com/revature-curriculum/pep-gitpod-workspace.git
   :gitpod_workspace:
-    :workspace_id: woldebrown-pepgitpodwor-14xlo430p7s
-    :workspace_url: https://woldebrown-pepgitpodwor-14xlo430p7s.ws-us84.gitpod.io
+    :workspace_id: woldebrown-pepgitpodwor-y8yy37vgfo9
+    :workspace_url: https://woldebrown-pepgitpodwor-y8yy37vgfo9.ws-us84.gitpod.io
     :repo_root: "/workspace/pep-gitpod-workspace"
     :git_user_email: woldebrown009@yahoo.com
     :git_user_name: woldebrown
