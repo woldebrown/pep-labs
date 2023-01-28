@@ -28,9 +28,6 @@ public class JavalinSingleton {
                 song.getArtistName();
                 String jsonStringToBeReturned = om.writeValueAsString(Song.class);
                 ctx.result(jsonStringToBeReturned);
-
-
-
         });
 
         /**
@@ -50,9 +47,6 @@ public class JavalinSingleton {
                 ctx.result(jsonStringToBeReturned);
 
         });
-
-
         return app;
-    }
-    
+    }  
 }
