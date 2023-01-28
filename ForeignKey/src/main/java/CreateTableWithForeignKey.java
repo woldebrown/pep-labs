@@ -88,6 +88,13 @@ public class CreateTableWithForeignKey {
          * Note: The post column will hold the text content of the post and the user_fk column will be a foreign key to
          * the user table's id.
          */
+
+         CREATE TABLE Post (
+            id PRIMARY KEY,
+            post varchar(255),
+            user_fk int REFERENCES user(id)
+
+         );
         String sql = FileUtil.parseSQLFile("problem1.sql");
 
         try {
