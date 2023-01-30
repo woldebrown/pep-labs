@@ -1,5 +1,4 @@
 
-
 public class ContainsDuplicates {
     /**
      * Determine if an array of items contains any duplicate values. You should use a Set for this: remember that
@@ -8,7 +7,11 @@ public class ContainsDuplicates {
      * @return true if nums contains any duplicate values, false if it does not.
      */
     public boolean containsDuplicate(int[] nums){
-        Set<Integer> myInt = new Set<>();
+        for(int i = 0; i < nums.length - 1; i++) {
+            if(nums[i] == nums[i + 1]) {
+                return true;
+            }
+        }
         return false;
     }
 }
