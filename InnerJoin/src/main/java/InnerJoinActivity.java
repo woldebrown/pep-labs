@@ -92,7 +92,13 @@ public class InnerJoinActivity {
          * Note: There should not be a wild card (*) in your statement. You will need to specify the column in your
          * statement by writing table.column, because the column names may be ambiguous between class and student.
          */
+
         String sql = FileUtil.parseSQLFile("problem1.sql");
+
+        SELECT student.id, student.student_name
+        FROM student
+        INNER JOIN class ON class.class_title = student.student_title
+        WHERE class.teacher_name = 'Ms. Lovelace';
 
 
 
