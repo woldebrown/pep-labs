@@ -89,6 +89,7 @@ public class CreateTableWithForeignKey {
          * the user table's id.
          */
         String sql = FileUtil.parseSQLFile("problem1.sql");
+        
 
         try {
             Connection connection = ConnectionUtil.getConnection();
